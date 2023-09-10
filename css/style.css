@@ -20,7 +20,7 @@ img {
   color: #2e2f42;
 }
 .container {
-  max-width: 100%;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -61,20 +61,23 @@ img {
 /* Address */
 address {
   font-style: normal;
-  display: flex;
-  gap: 40px;
 }
 .address-list {
+  display: flex;
   list-style: none;
   padding: 0;
+  gap: 40px;
 }
 .address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  min-width: 3em;
   text-decoration: none;
+  margin-right: 40px;
+}
+.address-link:last-child {
+  margin-right: 0;
 }
 address :hover,
 address :focus {
