@@ -116,6 +116,9 @@ address :focus {
 .section-button:focus {
   background-color: #404bbf;
 }
+:root {
+  --button-bg-color: #4d5ae5;
+}
 .second-section-title {
   font-size: 56px;
   line-height: 1.07;
