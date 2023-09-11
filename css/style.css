@@ -15,6 +15,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-text {
   color: #f4f4fd;
@@ -233,6 +235,7 @@ address :focus {
 .app-paragraph {
 }
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
@@ -240,6 +243,7 @@ address :focus {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 a {
   text-decoration: none;
