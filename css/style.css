@@ -280,10 +280,12 @@ address :focus {
   margin-bottom: 16px;
 }
 .footer-paragraph {
+  font-family: "Roboto";
   line-height: 1.5;
   color: #f4f4fd;
-  letter-spacing: 0.02em;
   max-width: 264px;
+  font-weight: 400;
+  font-style: normal;
 }
 a {
   text-decoration: none;
