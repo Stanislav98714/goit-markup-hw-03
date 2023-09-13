@@ -254,7 +254,7 @@ address :focus {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
 }
 .app-paragraph {
   color: var(--SLATE, #434455);
@@ -262,7 +262,8 @@ address :focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer {
   padding: 100px 0;
